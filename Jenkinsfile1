@@ -2,9 +2,8 @@ pipeline{
 
 agent any
 
-tools{
-maven 'maven3.8.2'
-
+tools {
+  maven 'M2_HOME'
 }
 
 triggers{
